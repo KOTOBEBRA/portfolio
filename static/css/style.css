@@ -1,0 +1,27 @@
+.body {
+	background-color: #f8f8f8;
+}
+
+.block_1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	background-color: #f8f8f8;
+}
+
+.namee {
+	display: flex;
+	color: #fc9e96;
+}
+
+.photo {
+	width: 300px;
+	height: 280px;
+	margin-left: 500px; 
+}
+
+p {
+	font-size: 20px;
+	background-color: #f79894;
+	text-align: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Comptible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Портфолио</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+
+	<p>Контакная информация:</p>
+	<div class="block_1">
+		<h1>Привет, я {{ name }}!</h1>
+		<div class="namee">
+			<ol>
+				{% for i in data.values() %}
+					<li>{{ i }}</li>
+				{% endfor %}
+			</ol>
+			<img src="{{ photo }}" alt="" class="photo">
+		</div>
+	</div>
+
+
+	<p>Образование:</p>
+	<div class="block_1">
+		На уровне дна
+	</div>
+
+
+	<p>Навыки:</p>
+	<div class="block_1">
+		Умею дышать
+	</div>
+
+
+	<p>Личные качества:</p>
+	<div class="block_1">
+		Могу идеально вовремя говорить "Угу" в деалогах, которые я не слушаю
+	</div>
+
+
+</body>
+</html>
